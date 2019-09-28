@@ -1,0 +1,2 @@
+set(action_tutorials_MESSAGE_FILES "/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesAction.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesActionGoal.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesActionResult.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesActionFeedback.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesGoal.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesResult.msg;/home/lhn/lhn_ws/devel/share/action_tutorials/msg/DoDishesFeedback.msg")
+set(action_tutorials_SERVICE_FILES "")

@@ -1,0 +1,21 @@
+<launch>
+
+    <!-- 启动freenect驱动 -->
+    <include file="$(find freenect_launch)/launch/freenect.launch"> 
+        <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.20 0 0 0 0 0 base_link camera_rgb_optical_frame 50" />
+        <arg name="publish_tf"                      value="false" /> 
+       
+        <!-- use device registration -->
+        <arg name="depth_registration"              value="true" /> 
+
+        <arg name="rgb_processing"                  value="true" />
+        <arg name="ir_processing"                   value="false" />
+        <arg name="depth_processing"                value="false" />
+        <arg name="depth_registered_processing"     value="true" />
+        <arg name="disparity_processing"            value="false" />
+        <arg name="disparity_registered_processing" value="false" />
+        <arg name="sw_registered_processing"        value="false" />
+        <arg name="hw_registered_processing"        value="true" />
+    </include>
+
+</launch>

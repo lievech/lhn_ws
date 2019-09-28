@@ -1,0 +1,8 @@
+prefix=/home/lhn/lhn_ws/install
+
+Name: object_recognition_core
+Description: Description of object_recognition_core
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lhn/lhn_ws/install/lib 
+Requires: 
